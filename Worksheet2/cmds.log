@@ -1,0 +1,194 @@
+    1  passwd
+    2  wget www.github.com 
+    3  wget www.github.com
+    4  cd Desktop
+    5  ls
+    6  pwd
+    7  mkdir cs131
+    8  cd cs131
+    9  mkdir Worksheet1
+   10  git init
+   11  cd Worksheet1
+   12  history > cmds.log
+   13  git status
+   14  git add cmds.log
+   15  git status
+   16  git commit -m "Commit"
+   17  git config --global user.email madhav.thankasala@gmail.com
+   18  git config --global user.name MadhavThankasala
+   19  git commit -m "Commit"
+   20  git checkout -b<new-branch>
+   21  git checkout -b <new-branch>
+   22  git checkout -b new-branch
+   23  git branch master
+   24  git branch master new-branch
+   25  git branch master
+   26  git branch
+   27  git remote add origin git@github.com:MadhavThankasala/cs131.git
+   28  git branch -M main
+   29  git push -u origin main
+   30  git remote add origin https://github.com/MadhavThankasala/cs131.git
+   31  git remote -v
+   32  git push origin new-branch
+   33  git remote add origin https://github.com/MadhavThankasala/cs131.git
+   34  git branch -M main
+   35  git push -u origin main
+   36  git remote add origin https://github.com/MadhavThankasala/cs131.git
+   37  git push -u origin new-branch
+   38  git push -u origin master
+   39  git push -u origin new-branch
+   40  ls
+   41  git branch
+   42  git remote add origin https://github.com/MadhavThankasala/cs131.git
+   43  git push -u origin main
+   44  ls Worksheet1
+   45  ls
+   46  git push origin main
+   47  git remote add origin git@github.com: Permission denied (publickey).
+   48  fatal: Could not read from remote repository.
+   49  git remote add origin https://github.com/MadhavThankasala/cs131.git
+   50  git remote remove origin
+   51  git remote add origin https://github.com/MadhavThankasala/cs131.git
+   52  git push -u origin main
+   53  git remote add origin https://github.com/MadhavThankasala/cs131.git
+   54  git branch -M main
+   55  git push -u origin main
+   56  python3
+   57  java
+   58  whereis java
+   59  ls
+   60  man -a
+   61  pwd
+   62  clear
+   63  lll
+   64  ll
+   65  clear
+   66  vi .bash_profile
+   67  cat. zshrc
+   68  echo 'pwd'
+   69  echo "pwd"
+   70  echo `pwd`
+   71  USER = madhav
+   72  clear
+   73  pwd
+   74  cat /etc/passwd
+   75  cat /etc/shadow
+   76  clear
+   77  sudo cat /etc/shadow
+   78  clear
+   79  cat etc/groups
+   80  grep wheel /etc/group
+   81  cat etc/passwd
+   82  whoami
+   83  man l
+   84  man -tnr
+   85  ls -l
+   86  clear
+   87  grep bob /etc/passwd
+   88  useradd bob
+   89  man useradd
+   90  cat /etc/group
+   91  clear
+   92  crontab -l
+   93  crontab -e
+   94  clear
+   95  crontab -e
+   96  crontab -l
+   97  clear
+   98  crontab -l
+   99  clear
+  100  crontab -e
+  101  crontab -l
+  102  cat spotify-2023.csv
+  103  cd Downloads
+  104  ls
+  105  pwd
+  106  cat cs131
+  107  ls cs131
+  108  ls Worksheet1
+  109  cat Worksheet1
+  110  exit
+  111  pwd
+  112  ls
+  113  cat
+  114  cd cs131
+  115  cat spotify-2023.csv
+  116  cd CS131
+  117  ls
+  118  clear
+  119  pwd
+  120  ls
+  121  cat Worksheet1
+  122  cd Worksheet1
+  123  ls
+  124  cat cmds.log
+  125  ls
+  126  cd cs131
+  127  ls
+  128  clear
+  129  cat spotify-2023.csv
+  130  pwd
+  131  ls
+  132  cd Documents
+  133  ls
+  134  cd cs131
+  135  ls
+  136  cd Worksheet1
+  137  ls
+  138  vi cmds.log
+  139  cd cs131
+  140  cd Worksheet1
+  141  ls
+  142  vi cmds.log
+  143  vi hello.txt
+  144  ls
+  145  cat hello.txt
+  146  vi hello.txt
+  147  ls
+  148  cd cs131
+  149  ls
+  150  pwd
+  151  ls
+  152  touch a.txt
+  153  touch b.txt
+  154  touch c.txt
+  155  ls
+  156  ls -ltr
+  157  clear
+  158  mkdir tryDir
+  159  ls tryDir/
+  160  -a tryDir/
+  161  ls -a try/Dir/
+  162  ls tryDir
+  163  ls -a tryDir/
+  164  pwd
+  165  cd ..
+  166  ls -ltr spotify-2023.csv
+  167  whoami
+  168  stat hasSomeData
+  169  clear
+  170  git pull origin main
+  171  git status
+  172  cd cs131
+  173  mkdir Worksheet2
+  174  cd Worksheet2
+  175  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  176  grep "United States" Global\ YouTube\ Statistics.csv 
+  177  grep "Music" Global\ YouTube\ Statistics.csv 
+  178  grep "Music" Global\ YouTube\ Statistics.csv >> counts.txt
+  179  cat counts.txt
+  180  grep "Music" Global\ YouTube\ Statistics.csv >> music.txt
+  181  wc music.txt >> counts.txt
+  182  vi counts.txt
+  183  ls
+  184  cd cs131
+  185  ls
+  186  ls Worksheet2
+  187  rm counts.txt
+  188  cd Worksheet2
+  189  rm counts.txt
+  190  ls
+  191  wc music.txt >> counts.txt
+  192  cat counts.txt
+  193  vi counts.txt
+  194  history >> cmds.log
