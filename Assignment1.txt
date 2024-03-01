@@ -1,0 +1,8 @@
+Question 2:/bin/bash
+Question 2: /mnt/scratch/FA23_CS131_Ashish/madhavsp24
+Question 3: madhavsp24:x:1196:1196::/mnt/scratch/FA23_CS131_Ashish/madhavsp24:/bin/bash
+              total        used        free      shared  buff/cache   available
+Question 6: Mem:          71367       32935       19053        3586       19379       33387
+Swap:          4119           0        4119
+Question 9: /etc/os-release
+Question 10 :ls -l /etc/os-release
