@@ -1,0 +1,38 @@
+
+Question 1: mkdir Assignment1
+  247  cd Assignment1
+ Question 2: echo $SHELL >> Assignment1.txt
+ Question 2: echo ~ >> Assignment1.txt
+2  $HOME
+ Question 3:  grep -l madhavsp24 /etc/passwd
+  252  id
+  253  grep -i madhavsp24 /etc/passwd
+  Question 3:  grep -i madhavsp24 /etc/passwd >> Assignment1.txt
+ Question 4:  mkdir myDir
+  256  man chmod
+  257  chmod u-w
+  Question 4: chmod 577 myDir
+  I was able to ls, cd, and ls -l in this directory
+  259  cd myDir
+  260  ls
+  261  cd ..
+  Question 5:  mkdir myDir2
+ Question 5:  mkdir myDir3
+  264  cd myDir2
+  Question 6:  touch myFile.txt
+  266  mv myFile.txt ../myDir3
+  267  cd ..
+  268  cd myDir3
+  269  ls
+  270  cd ..
+  271  man free
+  Question 6:  free -m
+  237  free -m >> Assignment1.txt
+  274  cat /etc/os-release
+  275  echo /etc/os-release >> Assignment1.txt
+  276  ls -l
+  Question 9:  ls -l /etc/os-release
+  278  echo ls -l /etc/os-release >> Assignment1.txt
+ Question 10: Read, write, and execute are given to all
+  279  vi Assignment1.txt
+  280  history >> cmds.log
