@@ -1,0 +1,20 @@
+1a. We are trying to find all of the files that are listed under the etc directory
+1b. In one.txt, we can see all the filepaths found by the find command. In two.txt, we can see "Permission denied", for different file paths.
+2. May, 12 with 9 channels
+September 2 with 8 channels
+November 21 with 8 channels
+3. ps -u madhavsp24
+   PID TTY          TIME CMD
+3365215 ?        00:00:08 systemd
+3365217 ?        00:00:00 (sd-pam)
+3365223 ?        00:00:00 sshd
+3365224 pts/4    00:00:00 bash
+3427010 ?        00:00:00 sshd
+3427011 pts/28   00:00:00 bash
+3438831 pts/28   00:00:00 ps
+4b. I can see the vim process being listed. The PID for vim is 3448152.
+4d. While vim was running, TTY was listed as pts/29 next to vim. After closing vim, it was listed as pts/28. This has to do with the pseudoterminal behavior, as when vim was closed, the next available psuedoterminal device was assigned.
+5.The init process is the initialization of the system by the kernel, eseentially serving as the parent of all processes. The PID is 1. The command used to find this was ps -p 1. 
+6. ps aux lists out all of the processes that are currently trunning in the system. It includes the USER, PID, etc. 
+ 
+
