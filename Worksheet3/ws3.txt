@@ -1,0 +1,10 @@
+Task 1
+United States : 9200000
+United Kingdom : 2000000
+India : 9000000
+
+Task 2
+Sports : 96000000
+Education : 68200000
+Entertainment: 166000000
+

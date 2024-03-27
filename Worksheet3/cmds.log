@@ -1,0 +1,68 @@
+
+  607  cd cs131
+  608  ls
+  609  mkdir Worksheet3
+  610  ls
+  611  cd Worksheet3
+  612  ls
+  613  cd cs131
+  614  ls
+  615  cd Worksheet3
+  616  ls
+  617  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  618  ls
+  619  cd cs131
+  620  clear
+  621  ls
+  622  cd Worksheet3
+  623  ls
+
+Task 1
+
+  624  sort -t',' -k 15nr 'Global Youtube Statistics.csv'>sorted_earnings.csv
+  625  sort -t',"Global Youtube Statistics.csv" > sorted_earnings.csv
+  626  ls
+  627  vi sorted_earnings.csv
+  628  clear
+  629  cd cs131
+  630  ls
+  631  cd Worksheet3
+  632  ls
+  633  vi sorted_earnings.csv
+  634  sort -t ',' -k 15nr 'Global YouTube Statistics.csv' > sorted_earnings.csv
+  635  ls
+  636  cat sorted_earnings.csv
+  637  grep 'United States' sorted_earnings.csv | head -n 1 | awk -F',''{print $16}'
+  638  grep 'United States' sorted_earnings.csv | head -n 1 | awk -F ',' '{print $16}'
+  639  vi ws3.txt
+  640  grep 'United Kingdom' sorted_earnings.csv | head -n 1 | awk -F ',' '{print $16}'
+  641  vi ws3.txt
+  642  grep 'India' sorted_earnings.csv | head -n 1 | awk -F ',' '{print $16}'
+  643  vi ws3.txt
+  644  sort -t ',' -k 3nr 'Global Youtube Statistics.csv'> subscriber_count.csv
+  645  clear
+  646  sort -t ',' -k 3nr 'Global YouTube Statistics.csv' > sorted_earnings.csv
+  647  ls
+  648  cat subscriber_count.csv
+  649  sort -t ',' -k 15nr 'Global YouTube Statistics.csv' > sorted_earnings.csv
+  650  cd cs131
+  651  cd Worksheet3
+  652  ls
+  653  history
+  654  cd cs131
+  655  cd Worksheet3
+
+Task 2
+
+  656  grep 'Sports' subscriber_count.csv | head -n 1 | awk -F ',' '{print $3, $2}'
+  657  grep 'Sports' sorted_subscribers_edited.csv | head -n 1 | awk -F ',' '{print $3, $2}' 
+  658  grep 'Education' subscriber_count.csv | head -n 1 | awk -F ',' '{print $3, $2}'
+  659  grep 'Entertainment' subscriber_count.csv | head -n 1 | awk -F ',' '{print $3, $2}'
+  660  vi ws3.txt
+  661  cd cs131
+  662  cd Worksheet3
+  663  ls
+  664  vi ws3.txt
+  665  history
+  
+   history >> cmds.log
