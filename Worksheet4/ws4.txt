@@ -1,0 +1,13 @@
+Task 1
+alias l ='ls -ltr'
+alias w ='ls -l | wc'
+l
+w
+
+Task 2
+awk -F,',' $8=="United States"{print $3}' Global\ Youtube\ Statistics.csv>Subscribers/United_States.txt
+awk -F',' '$8=="India"{print $3}' Global\ YouTube\ Statistics.csv > Subscribers/India.txt
+awk '{sum += $1; n++} END {print sum / n}' Subscribers/United_States.txt > us_mean_temp.txt
+awk '{sum += $1; n++} END {print sum / n}' Subscribers/India.txt > india_mean_temp.txt
+paste -d'\n' us_mean_temp.txt india_mean_temp.txt > ws4_means_temp.txt
+awk '{sum += $1; n++} END {print sum / n}' ws4_means_temp.txt > ws4_means.txt
