@@ -1,0 +1,9 @@
+997 awk -F',' 'NR > 1 {sum += $11} END {print "Average Alcohol Content:", sum / (NR - 1)}' winequality-red.csv
+ >> alcohol.txt
+ 998  awk -F',' 'NR > 1 {sum_x += $11; sum_y += $12; sum_xy += ($11 * $12); sum_x_squared += ($11 * $11); sum_y_squared += ($12 * $12)}   END {n = 1599; mean_x = sum_x / n; mean_y = sum_y / n; correlation = (sum_xy - n * mean_x * mean_y) / sqrt((sum_x_squared - n * mean_x * mean_x) * (sum_y_squared - n * mean_y * mean_y )); print "Correlation between Alcohol Content and Wine Quality:", correlation}' winequality-red.csv >> alcohol.txt
+999 vi dataMeans.txt
+1000  cd cs131
+ 1001  ls
+ 1002  cd MiniProjectGroup3
+ 1003  history
+ 1004  history >> cmds.log
